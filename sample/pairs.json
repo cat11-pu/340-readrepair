@@ -1,0 +1,12 @@
+{
+  "budget": 1,
+  "key_error_code": "E_NO_KEY",
+  "aligned_error_code": "E_ALREADY_ALIGNED",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "pairs": [["k1", 3, 5], ["k2", 2, 2], ["k3", 7, 4], ["k4", 1, 6]], "aligned": [], "fixes": 0, "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "fix", "key": "k1" },
+    { "id": 2, "kind": "fix", "key": "k3" },
+    { "id": 3, "kind": "fix", "key": "k4" }
+  ]
+}
